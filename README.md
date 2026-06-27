@@ -5,7 +5,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://pendant.run/icon-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://pendant.run/icon.png">
-  <img alt="Pendant logo" src="https://pendant.run/icon.png" width="100" height="100">
+  <img alt="Pendant logo" src="https://pendant.run/icon.png" width="80" height="80">
 </picture>
 
 **AI agent extension for VS Code, powered by Pi.**
