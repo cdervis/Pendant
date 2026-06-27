@@ -14,6 +14,7 @@
 [Issues](https://pendant.run/#/issues)
 
 <p align="center">
+<img alt="Latest Release Date" src="https://img.shields.io/open-vsx/release-date/cdervis/vscode-pi?label=Release%20Date">
   <a href="https://marketplace.visualstudio.com/items?itemName=cdervis.vscode-pi"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-0078D4?logo=visualstudiocode&logoColor=white"></a>
   <a href="https://open-vsx.org/extension/cdervis/vscode-pi"><img src="https://img.shields.io/badge/Open%20VSX-Registry-C8962E?logo=openvsx&logoColor=black"></a>
 </p>
