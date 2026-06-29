@@ -20,6 +20,8 @@
 
 </div>
 
+## Overview
+
 Pendant brings Pi into VS Code and VSCodium as a focused chat sidebar. It bundles Pi for a quick start, can use an external `pi` or `omp` runtime, streams rich tool output, keeps session history, supports workspace context and model controls, and includes local dictation powered by `whisper.cpp`.
 
 For more information, visit [pendant.run](https://pendant.run).
