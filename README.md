@@ -3,53 +3,32 @@
 # Pendant
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://pendant.run/icon-white.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://pendant.run/icon.png?v=2">
-  <img alt="Pendant logo" src="https://pendant.run/icon.png?v=2" width="80" height="80">
+  <img alt="Pendant logo" src="https://pendant.run/icon-bg.png" width="112" height="112">
 </picture>
 
-**VS Code Extension for the Pi Agent.**
+### The Pi coding agent, built into VS Code.
 
-Pendant brings Pi into VS Code and VSCodium as a simple, fast, and lightweight sidebar.
-
-[pendant.run](https://pendant.run)
-
-<p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=cdervis.vscode-pi"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-0078D4?logo=visualstudiocode&logoColor=white"></a>
-  <a href="https://open-vsx.org/extension/cdervis/vscode-pi"><img src="https://img.shields.io/badge/Open%20VSX-Registry-C8962E?logo=openvsx&logoColor=black"></a>
-</p>
+[Visit pendant.run](https://pendant.run)
 
 </div>
+
+Pendant brings Pi into VS Code as a focused, lightweight sidebar and editor tabs. It uses Pi directly, loads your configuration, extensions, skills and prompts, and supports every model available in your setup. Around it come modern touches: image attachments, Mermaid diagrams and other rich output, a focused view, and more.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://pendant.run/cover-light.webp">
-    <source media="(prefers-color-scheme: dark)" srcset="https://pendant.run/cover-dark.webp">
-    <img alt="Pendant Cover" src="https://pendant.run/cover-dark.webp">
+    <source media="(prefers-color-scheme: light)" srcset="https://pendant.run/readme-cover-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="https://pendant.run/readme-cover-dark.webp">
+    <img alt="Pendant in VS Code: the session rail, a finished agent run and its edit in the editor" src="https://pendant.run/readme-cover-dark.webp">
   </picture>
 </div>
 
-## What it can do, in a nutshell
+## Why Pendant?
 
-- **Bring your own Pi, or start immediately.** Use the bundled runtime or connect Pendant to an existing `pi` or oh-my-pi (`omp`) setup.
-- **Your Pi setup, ready to use.** Load Pi skills and extensions, including native Q&A dialogs and extension-provided UI.
-- **Bring real context into your work.** Attach files, folders, editor selections, diagnostics, and Git state, with multi-root workspace awareness.
-- **See what Pi is doing.** Follow streaming tool calls, command output, diffs, **Mermaid** diagrams, **MathJax**, and **plan or subagent progress**. And much more, probably.
-- **Stay in control of longer work.** Keep persistent, pinnable sessions in the sidebar or editor tabs, steer or queue follow-ups, and edit or fork conversations from earlier messages.
-- **Know what you have left.** Check OpenAI Codex and Kimi usage limits, or your OpenRouter credit balance, directly in the chat.
-- **Local all the way.** Run fully offline with a local model and dictate on-device with `whisper.cpp`; your audio never leaves your machine.
-- **Zero telemetry**. Pendant collects no analytics, crash reports, prompts, code, files, audio, or diagnostic data. Any network requests go to the Pi runtime, model providers, or services you choose.
+- **Any model.** Use anything your Pi setup supports, from local models to hosted frontier models.
+- **Editor context.** Attach files, folders, selections, diagnostics, images, and Git state without copy-paste.
+- **Rich agent UI.** Follow streaming tools, diffs, plans, subagents, Mermaid diagrams, MathJax, extension widgets, and terminal interfaces in chat.
+- **Persistent sessions.** Pin, search, reorder, fork, steer, and queue conversations from the sidebar or editor tabs.
+- **Local voice and offline work.** Dictate on-device with `whisper.cpp`, or pair Pendant with a local model and work without a network connection.
+- **No lock-in.** Your Pi configuration stays authoritative, and Pendant adds no hosted proxy, telemetry, or remote crash reporting.
 
----
-
-For more information, feedback, and discussions visit [pendant.run](https://pendant.run).
-## Issues and feature requests
-
-Please report bugs and request features through the
-[Pendant issue tracker](https://pendant.run/#/issues).
-
-You can sign in with an existing GitHub, Google, GitLab, or Discord account.
-
-## Source code
-
-Pendant's source code isn't public. If that changes in the future, it will be published here.
+Pendant for Desktop is coming soon. The VS Code extension works with VS Code, VSCodium, and compatible editors on macOS, Windows, and Linux.
