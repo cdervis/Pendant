@@ -3,12 +3,12 @@
 # Pendant
 
 <picture>
-  <img alt="Pendant logo" src="https://pendant.run/icon-bg.png" width="112" height="112">
+  <img alt="Pendant logo" src="https://pendant.sh/icon-bg.png" width="112" height="112">
 </picture>
 
 ### The Pi coding agent, built into VS Code.
 
-[Visit pendant.run](https://pendant.run)
+[Visit pendant.sh](https://pendant.sh)
 
 </div>
 
@@ -16,9 +16,9 @@ Pendant brings Pi into VS Code as a focused, lightweight sidebar and editor tabs
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://pendant.run/readme-cover-light.webp">
-    <source media="(prefers-color-scheme: dark)" srcset="https://pendant.run/readme-cover-dark.webp">
-    <img alt="Pendant in VS Code: the session rail, a finished agent run and its edit in the editor" src="https://pendant.run/readme-cover-dark.webp">
+    <source media="(prefers-color-scheme: light)" srcset="https://pendant.sh/readme-cover-light.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="https://pendant.sh/readme-cover-dark.webp">
+    <img alt="Pendant in VS Code: the session rail, a finished agent run and its edit in the editor" src="https://pendant.sh/readme-cover-dark.webp">
   </picture>
 </div>
 
@@ -30,5 +30,3 @@ Pendant brings Pi into VS Code as a focused, lightweight sidebar and editor tabs
 - **Persistent sessions.** Pin, search, reorder, fork, steer, and queue conversations from the sidebar or editor tabs.
 - **Local voice and offline work.** Dictate on-device with `whisper.cpp`, or pair Pendant with a local model and work without a network connection.
 - **No lock-in.** Your Pi configuration stays authoritative, and Pendant adds no hosted proxy, telemetry, or remote crash reporting.
-
-Pendant for Desktop is coming soon. The VS Code extension works with VS Code, VSCodium, and compatible editors on macOS, Windows, and Linux.
